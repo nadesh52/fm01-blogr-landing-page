@@ -20,6 +20,10 @@ export default {
         "blue-gray-500": "#3f4164",
         "blue-black-100": "25252d",
       },
+      screens: {
+        desktop: "1440px",
+        mobile: "375px",
+      },
     },
   },
   plugins: [],

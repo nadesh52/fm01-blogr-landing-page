@@ -1,8 +1,13 @@
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className='font-overpass text-red-light-200'>HomePage</div>
+    <section className='font-overpass text-red-light-200'>
+        <Header />
+        <Hero />
+    </section>
   )
 }
 
